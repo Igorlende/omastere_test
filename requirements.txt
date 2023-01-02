@@ -1,0 +1,4 @@
+selenium
+undetected-chromedriver
+2captcha-python
+requests

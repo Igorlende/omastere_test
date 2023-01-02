@@ -1,0 +1,14 @@
+python 3.8
+pip install -r /path/to/requirements.txt for installing required libraries
+download chromedriver from here https://chromedriver.chromium.org/downloads
+set your key for 2captcha service in file config.py
+
+to start (before activate your virtual env if you installed it)
+python method_with_requests.py
+python method_with_selenium.py
+
+in project 2 solution scripts
+first method_with_selenium.py use chrome profiles to solving captcha, but solving working not working in headless mode(not suitable for server)
+second method_with_requests solve recaptcha v3 by service 2captcha
+
+1 method is just for clarity, use the second one

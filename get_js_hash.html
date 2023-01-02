@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hash</title>
+</head>
+<body>
+
+<div id="hash"></div>
+
+<script src="hash2.js"></script>
+
+<script src="form_hash.js"></script>
+
+<script>
+    hash = base97encode(form_hash);
+    document.getElementById('hash').innerHTML += hash;
+</script>
+
+</body>
+</html>
