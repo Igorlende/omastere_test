@@ -1,3 +1,5 @@
+Solving test task https://dev.amidstyle.com/
+
 python 3.8
 pip install -r /path/to/requirements.txt for installing required libraries
 download chromedriver from here https://chromedriver.chromium.org/downloads
